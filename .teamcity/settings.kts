@@ -32,6 +32,10 @@ project {
     vcsRoot(HttpsGitJetbrainsTeamTcqaaInternalSampleSshAgentProjectGitRefsHeadsMain)
 
     buildType(SshAgentBuild)
+
+    params {
+        param("s", "credentialsJSON:3109b361-cad9-4666-883d-408b9d7a9901")
+    }
 }
 
 object SshAgentBuild : BuildType({
