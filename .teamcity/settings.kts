@@ -68,6 +68,6 @@ object HttpsGitJetbrainsTeamTcqaaInternalSampleSshAgentProjectGitRefsHeadsMain :
     branch = "refs/heads/main"
     authMethod = password {
         userName = "Ksenia.Ilina"
-        password = "credentialsJSON:686e4db7-894c-4bc4-af77-6b1a8c787739"
+        password = "credentialsJSON:686e4db7-894c-4bc4-af77-6b1a8c787738"
     }
 })
