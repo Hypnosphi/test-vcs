@@ -35,7 +35,7 @@ project {
 }
 
 object SshAgentBuild : BuildType({
-    name = "ssh-agent-checkoutssss"
+    name = "ssh-agent-checkoutsssss"
 
     vcs {
         checkoutMode = CheckoutMode.ON_AGENT
