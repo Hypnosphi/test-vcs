@@ -1,6 +1,7 @@
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildFeatures.sshAgent
 import jetbrains.buildServer.configs.kotlin.buildSteps.script
+import jetbrains.buildServer.configs.kotlin.ui.add
 import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
 
 /*
@@ -39,6 +40,7 @@ object SshAgentBuild : BuildType({
     paused = true
 
     vcs {
+        add(AbsoluteId("TC_ExternalPlugins_TeamCityExternalPluginsDslSettings"))
         checkoutMode = CheckoutMode.ON_AGENT
     }
 
