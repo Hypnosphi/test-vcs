@@ -10,6 +10,6 @@ accordingly, and delete the patch script.
 */
 changeBuildType(RelativeId("SshAgentBuild")) {
     vcs {
-        add(AbsoluteId("Sandbox_FilippRiabchun_HttpsGithubComJetBrainsTeamcityUi"))
+        add(AbsoluteId("Sandbox_FilippRiabchun_HttpsGithubComJetBrainsTeamcityUi1"))
     }
 }
