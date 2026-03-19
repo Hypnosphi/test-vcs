@@ -1,4 +1,14 @@
 jobs:
   Job1:
     name: Job 1
-    steps: []
+    steps:
+      - type: script
+        script-content: echo %ppl_par1% > 1.txt
+    files-publication:
+      - path: 1.txt
+        share-with-jobs: true
+        publish-artifact: true
+    repositories:
+      - myWrongRoot:
+          path: '48974'
+          enabled: true
